@@ -4,12 +4,35 @@
 ## 🗺️ PROJECT SUMMARY
 A "Vertical" slice of Figure AI's Hand Subsystem. From **Motor Control** (Embedded) to **Grasp API** (Integration).
 
+## 🎓 KNOWLEDGE TECH-TREE (Skills to Unlock)
+
+### ⚙️ Low-Level Mastery (The Nerves)
+- [ ] **Real-Time C++**: Lock-free programming, memory alignment, and C++20 features.
+- [ ] **Control Theory**: PID tuning, feedback loops, and motor torque characterization.
+- [ ] **Signal Processing**: Low-pass/Kalman filters to clean noisy sensor data.
+
+### 🧠 Robotics Architecture (The Brain)
+- [ ] **ROS2 Expertise**: Nodes, Topics, Services, Actions, and custom Message definitions.
+- [ ] **3D Math & Kinematics**: Forward/Inverse Kinematics (IK), Quaternions, and Transform Trees (TF2).
+- [ ] **Physics Modeling**: URDF/SRDF configuration with mass, inertia, and friction properties.
+
+### 🔌 Integration & DevOps (The Bridge)
+- [ ] **Docker for Robotics**: Containerizing complex multi-dependency stacks.
+- [ ] **HIL & Simulation**: High-fidelity testing in NVIDIA Isaac Sim / Gazebo.
+- [ ] **Sim-to-Real**: Understanding and bridging the "Reality Gap" through domain randomization.
+
+---
+
+## 🗺️ PROJECT MILESTONES
+
 | Phase | Days | Name | Focus | Key Deliverable |
 | :--- | :--- | :--- | :--- | :--- |
 | **I** | 1-25 | **The Nerves** | Embedded / Control | 1kHz C++ PID loop in Docker/ROS2. |
 | **II** | 26-50 | **The Skeleton** | Planning / Kinematics | Inverse Kinematics (IK) solver for 5 fingers. |
 | **III** | 51-75 | **The Eyes** | Perception / Bridge | Python/AI node detecting "Grasp Points" via camera. |
 | **IV** | 76-100| **The Brain** | Integration / Polish | Full "Pick & Place" autonomous loop + Dockerized CLI. |
+
+---
 
 ## 📊 THE 100-DAY ROADMAP
 
@@ -23,6 +46,8 @@ A "Vertical" slice of Figure AI's Hand Subsystem. From **Motor Control** (Embedd
 | **51-70** | **Vision Bridge** | ⏳ | Integrate a pre-trained model to "see" the object. |
 | **71-85** | **The API** | ⏳ | Build the high-level `hand.grasp()` interface. |
 | **86-100**| **The Final Flex** | ⏳ | Automated test suite + GitHub Demo Video. |
+
+---
 
 ## 🛠️ THE STACK (PARETO 20/80)
 *   **Language**: Modern C++ (20), Python (Testing).
